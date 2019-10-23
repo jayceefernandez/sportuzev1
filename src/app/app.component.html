@@ -6,14 +6,40 @@
           <ion-title>Menu</ion-title>
         </ion-toolbar>
       </ion-header> -->
-      <ion-content>
-        <img object-fit: cover src="../assets/images/profile.png" >
+      <ion-content *ngIf="!isLoading">
+        <ion-grid>
+          <br>
+          <ion-row class="headerStyle">
+            <ion-col style="margin-left: 10px;" size="3">
+              <ion-avatar>
+                <img [src]="userImg">
+              </ion-avatar>
+            </ion-col>
+            <ion-col style="margin-left: 5%; margin-top: 0%;">
+              <br>
+              <ion-label>
+                {{user.fullName}}
+              </ion-label><br>
+              <!-- <ion-label class="subLabel">{{user.email}}</ion-label><br> -->
+
+            </ion-col>
+          </ion-row>
+        </ion-grid>
         <ion-list>
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages">
             <ion-item [routerDirection]="'root'" [routerLink]="[p.url]">
               <ion-icon slot="start" [name]="p.icon"></ion-icon>
               <ion-label class="ion-padding">
                 {{p.title}}
+              </ion-label>
+            </ion-item>
+          </ion-menu-toggle>
+          <ion-row style="border: .5px solid #ddd;"></ion-row>
+          <ion-menu-toggle class="logoutClass" auto-hide="false">
+            <ion-item (click)="logout('Are you sure you want to logout?')" routerDirection="backward">
+              <ion-icon slot="start" name="power"></ion-icon>
+              <ion-label class="ion-padding">
+                Logout
               </ion-label>
             </ion-item>
           </ion-menu-toggle>

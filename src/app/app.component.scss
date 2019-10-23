@@ -1,0 +1,82 @@
+:host {
+    ion-content {
+        --background: #fff;
+
+        ion-grid {
+            background: #fff;
+            box-shadow: 0px 1px #ddd;
+            
+            .headerStyle {
+                ion-label {
+                    color: #000;
+                    font-size: 1.2rem;
+                    font-weight: 700;
+                }
+                .subLabel {
+                    color: #fff;
+                    font-size: .7rem;
+                    font-weight: 400;
+                    font-style: italic;
+                }
+            }
+        }
+        ion-list {
+            margin-top: 5%;
+            margin: 5% 5%;
+            // --border-color: var(--ion-color-cargalightblue, #7CA2C9);
+            background: #fff;
+            ion-menu-toggle {
+                ion-item {
+                    margin-bottom: 5%;
+                    --background: #fff;
+                    --background-activated: #fff;
+                    --background-focused: #fff;
+                    --border-color: #fff;
+
+                    ion-label {
+                        color: #000;
+                        font-size: 1rem;
+                        font-weight: 600;
+                    }
+                    ion-icon {
+                        color: #000;
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+
+            ion-menu-toggle.logoutClass {
+                ion-item {
+                    margin-bottom: 5%;
+                    --background: #fff;
+                    --background-activated: #fff;
+                    --background-focused: #fff;
+                    --border-color: #fff;
+                    ion-label {
+                        color: #000;
+                        font-size: 1rem;
+                    }
+                    ion-icon {
+                        color: #000;
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+        }
+    }
+    
+    .secondary {
+        color: #f33446;
+    }
+
+    ion-avatar {
+        width: 100%;
+        height: auto;
+        // border: solid;
+        // border-color: #757575;
+        // box-shadow: 1px 2px 7px 0px;
+        img {
+            border: solid 1px #fff;
+        }
+    }
+}
