@@ -7,9 +7,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LoginPage implements OnInit {
 
+  userImg = 'assets/images/background.png';
+  loginFrm: boolean;
+
   constructor() { }
 
   ngOnInit() {
+    this.loginFrm = false
   }
 
 }

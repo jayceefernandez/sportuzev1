@@ -1,0 +1,92 @@
+:host {
+    ion-content {
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        // background-image: url('../../assets/images/background.png');
+        --background: #fff;
+        // --background: rgb(4,22,31);
+        // --background: linear-gradient(180deg, rgba(4,22,31,1) 0%, rgba(3,54,81,1) 100%);
+
+        ion-row.loginCard {
+            position: absolute;
+            top: 30%;
+            width: 100%;
+            ion-card {
+                --background: #fff;
+                border-radius: 10%;
+                
+                ion-card-header {
+                    ion-card-title {
+                        font-size: 27px;
+                        text-align: center;
+                    }
+                }
+
+                ion-card-content {
+                    padding: 0px 40px;
+                }
+                
+                ion-input {
+                    text-align: center;
+                    border: solid;
+                    border-width: 0px 0px 1px 0px;
+                    border-color: #bebebe;
+                }
+
+                ion-button {
+                    --background: #C7EF00;
+                    --background-activated: #C7EF00;
+                    --background-focused: #C7EF00;
+                    color: #000
+                }
+
+                ion-row {
+                    text-align: center;
+                }
+            }
+        }
+
+        ion-row.topRow {
+            background: rgb(4,22,31);
+            background: linear-gradient(180deg, rgba(4,22,31,1) 0%, rgba(3,54,81,1) 100%);
+            width: 100%;
+            height: 58%;
+        }
+
+        ion-row.bottomRow {
+            // background: transparent;
+            // background: #fff;
+            background: rgb(2,53,80);
+            background: linear-gradient(180deg, rgba(2,53,80,1) 0%, rgba(2,53,80,1) 100%);
+            top: 56%;
+            width: 100%;
+            height: 20%;
+            border-bottom-left-radius: 50%;
+            border-bottom-right-radius: 50%;
+            position: absolute;
+        }
+        ion-row.bottomRowbase {
+            width: 100%;
+            background: #ffffff;
+            // position: absolute;
+            bottom: 0;
+
+            ion-col {
+                text-align: center;
+
+                ion-button {
+                    margin-top: 70%;
+                    --background: #C7EF00;
+                    --background-activated: #C7EF00;
+                    --background-focused: #C7EF00;
+                    color: #000
+                }
+
+                ion-label {
+                    font-size: .8rem;
+                }
+            }
+
+        }
+    }
+}
