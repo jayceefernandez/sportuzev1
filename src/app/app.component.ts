@@ -3,6 +3,7 @@ import { Component } from '@angular/core';
 import { Platform, AlertController } from '@ionic/angular';
 import { SplashScreen } from '@ionic-native/splash-screen/ngx';
 import { StatusBar } from '@ionic-native/status-bar/ngx';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-root',
@@ -49,6 +50,7 @@ export class AppComponent {
     private splashScreen: SplashScreen,
     private statusBar: StatusBar,
     public alertController: AlertController,
+    private router: Router,
 
   ) {
     this.initializeApp();
@@ -78,7 +80,7 @@ export class AppComponent {
           text: 'OK',
           handler: () => {
             // console.log('Confirm Okay');
-            // this.router.navigate(['/login']);
+            this.router.navigate(['/login']);
           }
         }
       ]
