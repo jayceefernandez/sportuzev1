@@ -2,3 +2,107 @@
   max-height: 35vh;
   overflow: hidden;
 }
+
+.toolbar-background{
+	--background: url(../../assets/images/backgroundsports.png) no-repeat center ;
+  --background-size: contain;
+}
+
+.rowhor {
+  white-space: nowrap;
+  width: 50px;
+  overflow-x: auto !important;
+}
+
+
+.background{
+    // --background: linear-gradient(197deg, rgb(27, 65, 23) 0%, rgba(63,63,63,1) 13.5%, rgba(29,29,29,1) 33.33%, rgba(0,0,0,1) 20%) !important;
+    --background: rgb(88,117,84);
+    --background: linear-gradient(179deg, rgba(88,117,84,0.8421743697478992) 0%, rgba(4,82,122,0.8533788515406162) 86%, rgba(0,0,0,0.9514180672268907) 95%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 98%, rgba(255,255,255,1) 100%);
+    // --background: rgb(88,117,84);
+    // --background: linear-gradient(179deg, rgba(88,117,84,1) 0%, rgba(4,82,122,1) 86%, rgba(0,0,0,1) 95%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 98%, rgba(255,255,255,1) 100%);
+    // // --background: -moz-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+    // --background: -webkit-gradient(left top, right top, color-stop(0%, rgba(169,3,41,1)), color-stop(44%, rgba(143,2,34,1)), color-stop(100%, rgba(109,0,25,1)));
+    // --background: -webkit-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+    // --background: -o-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+    // --background: -ms-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+    // --background: linear-gradient(to right, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=1 );
+    // --color:#ffffff;
+  }
+
+.friendsname{
+    color: #ffffff;
+    font-size: 10px;
+    font-family: flamate !important;
+}
+
+.hometext{
+    color: #ffffff;
+    padding-left: 20px;
+    font-size: 25px;
+    font-family: flamate !important;
+}
+
+// .img-with-text {
+//   text-align: justify;
+//   height: 50px;;
+// }
+
+.nametext{
+  color: #ffffff;
+  font-weight: bold;
+  padding-left: 20px;
+  font-size: 35px;
+  font-family: flamate !important;
+}
+
+.friendtext{
+  color: #ffffff;
+  font-weight: bold;
+  padding-left: 20px;
+  // padding-bottom: 20px;
+  font-size: 15px;
+  text-align: center
+}
+.menubutton{
+  // text-align: center;
+  // align-items: center;
+
+  padding-left: 20px;
+  align-items: center;
+}
+
+.menutext{
+  color: #000000;
+  font-size: 20px;
+  font-family: flamate !important;
+}
+
+.menutitle{
+  color: #000000;
+  font-size: 25px;
+  font-family: flamate !important;
+}
+
+
+.pad {
+  padding-left: 20px;
+ }
+
+ .menubutton{
+   text-align: center;
+   align-items: center;
+ }
+
+.container {
+ --background: transparent;
+ --ion-color-base: transparent !important;
+}
+
+.containerfriends {
+  --background: transparent;
+  --ion-color-base: transparent !important;
+ }
+
+

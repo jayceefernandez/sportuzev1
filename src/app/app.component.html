@@ -1,5 +1,5 @@
 <ion-app>
-  <ion-split-pane>
+  <ion-split-pane >
     <ion-menu type="overlay">
       <!-- <ion-header>
         <ion-toolbar>
@@ -27,9 +27,9 @@
         </ion-grid>
         <ion-list>
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages">
-            <ion-item [routerDirection]="'root'" [routerLink]="[p.url]">
+            <ion-item [routerDirection]="'root'" [routerLink]="[p.url]" >
               <ion-icon slot="start" [name]="p.icon"></ion-icon>
-              <ion-label class="ion-padding">
+              <ion-label class="container ion-padding" >
                 {{p.title}}
               </ion-label>
             </ion-item>
