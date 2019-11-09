@@ -30,7 +30,8 @@ const routes: Routes = [
   { path: 'tabs', loadChildren: './tabs/tabs.module#TabsPageModule' },
   { path: 'bookchoose', loadChildren: './bookchoose/bookchoose.module#BookchoosePageModule' },
   { path: 'bookplace', loadChildren: './bookplace/bookplace.module#BookplacePageModule' },
-  { path: 'booktime', loadChildren: './booktime/booktime.module#BooktimePageModule' }
+  { path: 'booktime', loadChildren: './booktime/booktime.module#BooktimePageModule' },
+  { path: 'booktimeinfo', loadChildren: './booktimeinfo/booktimeinfo.module#BooktimeinfoPageModule' }
   
 ];
 

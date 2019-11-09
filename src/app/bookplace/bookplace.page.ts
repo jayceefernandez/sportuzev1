@@ -15,7 +15,7 @@ export class BookplacePage implements OnInit {
 
 
   onbooktime(){
-    this.router.navigate(['/booktime']);
+    this.router.navigate(['/booktimeinfo']);
   }
 
 
