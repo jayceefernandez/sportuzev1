@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+
 @Component({
   selector: 'app-booktimeinfo',
   templateUrl: './booktimeinfo.page.html',
@@ -7,9 +8,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BooktimeinfoPage implements OnInit {
 
+  selectedView = 'datetime';
+
   constructor() { }
 
   ngOnInit() {
   }
+
+
+ 
 
 }

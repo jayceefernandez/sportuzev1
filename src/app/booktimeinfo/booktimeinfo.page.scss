@@ -1,0 +1,50 @@
+
+.toolbar-background{
+	--background: url(../../assets/images/backgroundsports.png) no-repeat center ;
+  --background-size: contain;
+}
+
+.background{
+    // --background: linear-gradient(197deg, rgb(27, 65, 23) 0%, rgba(63,63,63,1) 13.5%, rgba(29,29,29,1) 33.33%, rgba(0,0,0,1) 20%) !important;
+    --background: rgb(88,117,84);
+    --background: linear-gradient(179deg, rgba(88,117,84,0.8421743697478992) 0%, rgba(4,82,122,0.8533788515406162) 86%, rgba(0,0,0,0.9514180672268907) 95%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 98%, rgba(255,255,255,1) 100%);
+    // --background: rgb(88,117,84);
+    // --background: linear-gradient(179deg, rgba(88,117,84,1) 0%, rgba(4,82,122,1) 86%, rgba(0,0,0,1) 95%, rgba(255,255,255,1) 96%, rgba(255,255,255,1) 98%, rgba(255,255,255,1) 100%);
+    // // --background: -moz-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+    // --background: -webkit-gradient(left top, right top, color-stop(0%, rgba(169,3,41,1)), color-stop(44%, rgba(143,2,34,1)), color-stop(100%, rgba(109,0,25,1)));
+    // --background: -webkit-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+    // --background: -o-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+    // --background: -ms-linear-gradient(left, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+    // --background: linear-gradient(to right, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 44%, rgba(109,0,25,1) 100%);
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019', GradientType=1 );
+    // --color:#ffffff;
+  }
+
+.booking{
+  color: #ffffff;
+  font-weight: bold;
+  padding-left: 10px;
+  font-size: 35px;
+  font-family: flamate !important;
+}
+
+.toptoolbar {
+ --background: transparent;
+ --ion-color-base: transparent !important;
+}
+
+.bottomtoolbar {
+  --background: transparent;
+  --ion-color-base: transparent !important;
+ }
+
+
+ ion-button {
+  //  border-block-color: red;
+  --background: #C7EF00;
+  --background-activated: #C7EF00;
+  --background-focused: #C7EF00;
+  color: rgb(0, 0, 0)
+}
+
+
