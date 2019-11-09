@@ -1,0 +1,88 @@
+<ion-header no-border >
+    <ion-toolbar class="toolbar-background" style="box-shadow: none !important;" >
+      <ion-toolbar class="background no-shadow" >
+      <ion-toolbar class="toptoolbar">
+        <ion-buttons slot="start" >
+          <ion-menu-button style="color: white;"></ion-menu-button>
+        </ion-buttons>
+         <img style="height: 30px;padding-right: 10px" src="/assets/images/main_logo.png" alt=""  class="ion-float-right" position="bottom"/>
+      </ion-toolbar>
+    
+      <ion-toolbar class="toptoolbar">
+          <ion-label class="zbook ion-float-left" position="bottom">
+            <ion-icon ios="ios-arrow-back" name="arrow-dropleft"></ion-icon>Zbook
+          </ion-label>
+      </ion-toolbar >
+    
+      <ion-toolbar style="border-bottom: none" class="bottomtoolbar">
+      </ion-toolbar>
+      </ion-toolbar>
+    </ion-toolbar>
+    
+    </ion-header>
+<ion-content class="ion-padding">
+
+    <ion-item-group>
+        <ion-item-divider >
+          <ion-label style="font-weight: bold;font-size: 30px;">Near Me</ion-label>
+          <ion-label style="padding-left: 20px;"> Most popular</ion-label>
+        </ion-item-divider>
+      
+        <ion-list>          
+            <ion-item>
+              <!-- <ion-label>Location</ion-label> -->
+              <ion-select value="brown" okText="Okay" cancelText="Dismiss">
+                <ion-select-option value="brown">Metro Manila</ion-select-option>
+                <ion-select-option value="blonde">Palawan</ion-select-option>
+                <ion-select-option value="black">Cebu</ion-select-option>
+                <ion-select-option value="red">Tarlac</ion-select-option>
+              </ion-select>
+            </ion-item>
+          
+          </ion-list>
+
+      
+    </ion-item-group>
+
+    <ion-grid>
+        <ion-row style="text-align: center;" >
+            
+            <ion-col (click)="onbookplace()">
+                <img src="../assets/images/apexbad.png" >
+                <ion-label   >
+                    Apex Badminton Centre Bachupally <br/> 50/hour
+                </ion-label>
+              </ion-col>
+              <ion-col >
+                  <img src="../assets/images/rebootarea.png"  >
+                  <ion-label   >
+                      Reboot Arena <br/> 80/hour
+                  </ion-label>
+              </ion-col>
+          </ion-row>
+
+          <ion-row style="text-align: center;">
+              <ion-col >
+                  <img src="../assets/images/infibadminton.png" >
+                  <ion-label   >
+                      Infintys Badminton Academy <br/> free
+                  </ion-label>
+              </ion-col>
+              <ion-col >
+                  <img src="../assets/images/fitso.png" >
+                  <ion-label   >
+                      Fitso SEALs Swimming Acade <br/> 199/hour
+                  </ion-label>
+                </ion-col>
+          </ion-row>
+        </ion-grid>
+
+        <ion-label style="padding-top: 30px;position: center;">
+            See More
+        </ion-label>
+        <ion-label >
+            <ion-icon ios="ios-arrow-down" md="md-arrow-down"></ion-icon>
+        </ion-label>
+
+
+</ion-content>

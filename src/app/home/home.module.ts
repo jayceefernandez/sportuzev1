@@ -6,21 +6,31 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { HomePage } from './home.page';
 
+
 const routes: Routes = [
   {
-    path: 'home',
-    component: HomePage,
-    children:[
-        { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' },
-        { path: 'myprofile', loadChildren: './myprofile/myprofile.module#MyprofilePageModule' }
-    ]
-  },
-  {
-    path:'',
-    redirectTo:'home',
-    pathMatch:'full'
+    path: '',
+    component: HomePage
   }
 ];
+
+// const routes: Routes = [
+//   {
+//     path: 'home',
+//     component: HomePage,
+//     children:[
+//         { path: 'chat', loadChildren: './chat/chat.module#ChatPageModule' },
+//         { path: 'myprofile', loadChildren: './myprofile/myprofile.module#MyprofilePageModule' },
+//         { path: 'settings', loadChildren: './settings/settings.module#SettingsPageModule' }
+//     ]
+//   },
+//   {
+//     path:'home',
+//     redirectTo:'home',
+//     pathMatch:'full'
+//   }
+// ];
+
 @NgModule({
   imports: [
     CommonModule,

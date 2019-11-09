@@ -12,8 +12,8 @@ const routes: Routes = [
     loadChildren: () => import('./home/home.module').then(m => m.HomePageModule)
   },
   {
-    path: '',
-    loadChildren: () => import('./tabs/tabs.module').then(m => m.TabsPageModule)
+    path: 'list',
+    loadChildren: () => import('./list/list.module').then(m => m.ListPageModule)
   },
   { path: 'login', loadChildren: './login/login.module#LoginPageModule' },
   { path: 'myprofile', loadChildren: './myprofile/myprofile.module#MyprofilePageModule' },
@@ -26,8 +26,12 @@ const routes: Routes = [
   { path: 'details', loadChildren: './details/details.module#DetailsPageModule' },
   { path: 'verifiedpage', loadChildren: './verifiedpage/verifiedpage.module#VerifiedpagePageModule' },
   { path: 'bookings', loadChildren: './bookings/bookings.module#BookingsPageModule' },
-  { path: 'chat', loadChildren: './chat/chat.module#ChatPageModule' }
-  // { path: 'tabs', loadChildren: './tabs/tabs.module#TabsPageModule' }
+  { path: 'chat', loadChildren: './chat/chat.module#ChatPageModule' },
+  { path: 'tabs', loadChildren: './tabs/tabs.module#TabsPageModule' },
+  { path: 'bookchoose', loadChildren: './bookchoose/bookchoose.module#BookchoosePageModule' },
+  { path: 'bookplace', loadChildren: './bookplace/bookplace.module#BookplacePageModule' },
+  { path: 'booktime', loadChildren: './booktime/booktime.module#BooktimePageModule' }
+  
 ];
 
 @NgModule({
@@ -36,4 +40,7 @@ const routes: Routes = [
   ],
   exports: [RouterModule]
 })
-export class AppRoutingModule {}
+export class AppRoutingModule {
+
+
+}

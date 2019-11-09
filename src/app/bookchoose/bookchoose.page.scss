@@ -1,18 +1,9 @@
-.welcome-card img {
-  max-height: 35vh;
-  overflow: hidden;
-}
 
 .toolbar-background{
 	--background: url(../../assets/images/backgroundsports.png) no-repeat center ;
   --background-size: contain;
 }
 
-.rowhor {
-  white-space: nowrap;
-  width: 50px;
-  overflow-x: auto !important;
-}
 
 
 .background{
@@ -31,25 +22,7 @@
     // --color:#ffffff;
   }
 
-.friendsname{
-    color: #ffffff;
-    font-size: 10px;
-    font-family: flamate !important;
-}
-
-.hometext{
-    color: #ffffff;
-    padding-left: 20px;
-    font-size: 25px;
-    font-family: flamate !important;
-}
-
-// .img-with-text {
-//   text-align: justify;
-//   height: 50px;;
-// }
-
-.nametext{
+.zbook{
   color: #ffffff;
   font-weight: bold;
   padding-left: 20px;
@@ -57,52 +30,15 @@
   font-family: flamate !important;
 }
 
-.friendtext{
-  color: #ffffff;
-  font-weight: bold;
-  padding-left: 20px;
-  // padding-bottom: 20px;
-  font-size: 15px;
-  text-align: center
-}
-// .menubutton{
-//   // text-align: center;
-//   // align-items: center;
-
-//   // padding-left: 20px;
-//   // align-items: center;
-// }
-
-.menutext{
-  color: #000000;
-  font-size: 20px;
-  font-family: flamate !important;
-}
-
-.menutitle{
-  color: #000000;
-  font-size: 25px;
-  font-family: flamate !important;
-}
-
-
-.pad {
-  padding-left: 20px;
- }
-
- .menubutton{
-   text-align: center;
-   align-items: center;
- }
-
-.container {
+.toptoolbar {
  --background: transparent;
  --ion-color-base: transparent !important;
 }
 
-.containerfriends {
+.bottomtoolbar {
   --background: transparent;
   --ion-color-base: transparent !important;
  }
+
 
 
